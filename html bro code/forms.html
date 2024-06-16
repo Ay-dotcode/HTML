@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <form action="........php" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" name="fname" placeholder="Spangebob">
+            <br>
+            <br>
+            <label for="label">Last name: </label>
+            <input type="text" id="lname" name="lname" placeholder="Squarepants">
+            <br>
+            <br>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="pass" maxlength="12">
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="spongepants@gmail.com">
+            <br>
+            <br>
+            <label for="phone">Phone number: </label>
+            <input type="tel" id="phone" name="phone" placeholder="0532342343" pattern="[0-9]{11}">
+            <br>
+            <br>
+            <label for="bday">Birth day: </label>
+            <input type="date" id="bday" name="bday">
+            <br>
+            <br>
+            <label for="num">Numbers: </label>
+            <input type="number" id="num" name="num" min="0" max="99" value="1">
+            <br>
+            <br>
+            <label for="title">Title: </label>
+            <input type="radio" name="title" id="Mr">
+            <label for="Mr">Mr.</label>
+            <input type="radio" name="title" id="Mrs">
+            <label for="Mrs">Mrs.</label>
+            <input type="radio" name="title" id="phd">
+            <label for="phd">PhD</label>
+            <br>
+            <br>
+            <label for="payment">Payment: </label>
+            <select id="payment" name="payment">
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Giftcard">Giftcard</option>
+            </select>
+            <br>
+            <br>
+            <label for="suscribe">Suscribe: </label>
+            <input type="checkbox" id="suscribe" name="suscribe" checked>
+            <br>
+            <br>
+            <label for="comment">Comment: </label>
+            <textarea id="comment" rows="3" cols="25"></textarea>
+            <br>
+            <br>
+            <label for="file">File/upload: </label>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+            <hr>
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+    <br>
+    <a href="header and footer.html">
+        Header and footer
+    </a>
+</body>
+</html>
