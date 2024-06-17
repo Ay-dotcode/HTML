@@ -1,0 +1,26 @@
+.red{
+    float: left;
+    width: 150px;
+    height: 300px;
+    background-color: red;
+}
+.green{
+    float: none;
+    width: 14cm;
+    height: 100px;
+    background-color: green;
+}
+.white{
+    height: 100px;
+    width: 14cm;
+    background-color: white;
+}
+.black{
+    height: 100px;
+    width: 14cm;
+    background-color: black;
+}
+.border{
+    border: 3px solid black;
+    display: inline-block;
+}
